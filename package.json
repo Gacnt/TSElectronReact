@@ -1,0 +1,43 @@
+{
+  "name": "addin",
+  "version": "0.0.1",
+  "description": "A WoW addon manager for saving and backing up addons",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gacnt/Addin.git"
+  },
+  "author": "Gacnt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gacnt/Addin/issues"
+  },
+  "homepage": "https://github.com/Gacnt/Addin#readme",
+  "dependencies": {
+    "@types/react": "^0.14.55",
+    "@types/react-dom": "^0.14.19",
+    "lodash": "^4.17.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.4.29",
+    "@types/node": "0.0.2",
+    "awesome-typescript-loader": "^3.0.0-beta.12",
+    "babel": "^6.5.2",
+    "babel-core": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "electron-prebuilt": "^1.4.12",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-typescript": "^3.1.3",
+    "rimraf": "^2.5.4",
+    "source-map-loader": "^0.1.5",
+    "typescript": "^2.1.4",
+    "webpack-stream": "^3.2.0"
+  }
+}
